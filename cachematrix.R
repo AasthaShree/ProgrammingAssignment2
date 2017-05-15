@@ -12,7 +12,7 @@ makeCacheMatrix <- function(mtx = matrix()){ #assuming symmetric matrix
   getinv <- function() inv                  #get the value of inverse of the matrix
   list(set = set, get = get,                #create a list of the assigned values
        setinv = setinv,
-       getinv = getinv)
+       getinv = getinv
 }
 
 #2. Function to comput inverse of 'special' matrix and, in case already calculated, retrieve the cached value
